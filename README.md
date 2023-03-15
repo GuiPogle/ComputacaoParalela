@@ -1,5 +1,5 @@
 # Computação Paralela
-Exercícios de laboratório passados em aula e armazenados aqui. <br />
+Exercícios de laboratório passados em aula e armazenados aqui. <br /> <br />
 Universidade Presbiteriana Mackenzie <br />
 FCI - Ciência da Computação <br /> <br />
 
