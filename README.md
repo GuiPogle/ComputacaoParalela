@@ -1,7 +1,7 @@
 # Computação Paralela
 Exercícios de laboratório passados em aula e armazenados aqui. <br /> <br />
 Universidade Presbiteriana Mackenzie <br />
-FCI - Ciência da Computação <br /> <br />
+FCI - Ciência da Computação <br /> 
 
 Alunos:
 - Guilherme de Souza Valente | TIA: 32034008
