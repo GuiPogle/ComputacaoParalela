@@ -10,4 +10,7 @@ _____________________________________________________________
 
 Lab 2
 
-O exercício em questão foi desenvolvido na AWS.
+O arquivo "Maneiro.c" é o código multiprocessado e o "Paia.c" é o código serializado.
+De acordo com os testes realizados, o código serializado foi mais perfomártico do que o multiprocessado.
+
+Os exercícios foram desenvolvidos na plataforma AWS.
