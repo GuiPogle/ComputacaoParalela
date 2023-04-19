@@ -10,24 +10,27 @@ int main() {
                         {4, 5, 6},
                         {7, 8, 9}};
     int resultado[3][3] = {{0, 0, 0},
-                        {0, 0, 0},
-                        {0, 0, 0}};
-    int i, j;
+                           {0, 0, 0},
+                           {0, 0, 0}};
+    int i, j, k;
 
     // multiplica a matriz por vetor
     for (i = 0; i < 3; i++) {
         for (j = 0; j < 3; j++) {
-            resultado[i] += matriz[i][j] * vetor[i][j];
+            for (k = 0; k < 3; k++) {
+                resultado[i][j] += matriz[i][k] * vetor[k][j];
+            }
         }
     }
 
     // imprime o resultado
-      for (i = 0; i < 3; i++) {
+    printf("Resultado:\n");
+    for (i = 0; i < 3; i++) {
         for (j = 0; j < 3; j++) {
             printf("%d ", resultado[i][j]);
         }
+        printf("\n");
     }
-    printf("\n");
 
     return 0;
 }
