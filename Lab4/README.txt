@@ -10,8 +10,8 @@ _____________________________________________________________
 
 Lab 4 - Pthreads (p. 1)
 
-O arquivo "X.c" é o código serializado e o "Y.c" é o código com threads.
-De acordo com os testes realizados, o código serializado teve um tempo de execução de XXX segundos e o com threads YYY segundos.
+O arquivo "serial1.c" e "serial2.c" é o código serializado e o "thread1.c" e "thread2.c" é o código com threads.
+De acordo com os testes realizados, os códigos serializados tiveram um tempo de execução de 0.001 segundos e os com threads 0.001 segundos.
 Além disso, o speedup corresponde a ...
 Sp = T1/Tp
 
