@@ -18,7 +18,7 @@ int main() {
     }
 
     // imprime o resultado
-    printf("Resultado da multiplicação em Serial:  ");
+    printf("Resultado (serial):  ");
     for (i = 0; i < 3; i++) {
         printf("%d ", resultado[i]);
     }
