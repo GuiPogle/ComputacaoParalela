@@ -40,7 +40,7 @@ int main() {
     }
 
     // imprime o resultadodf
-    printf("Resultado da multiplicação com threads: n");
+    printf("Resultado (threads): ");
     int i;
     for (i = 0; i < 3; i++) {
         printf("%d ", resultado[i]);
