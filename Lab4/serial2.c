@@ -22,9 +22,10 @@ int main() {
     }
 
     // imprime o resultado
-    printf("Resultado (serial):  ");
-    for (i = 0; i < 3; i++) {
-        printf("%d ", resultado[i]);
+      for (i = 0; i < 3; i++) {
+        for (j = 0; j < 3; j++) {
+            printf("%d ", resultado[i][j]);
+        }
     }
     printf("\n");
 
