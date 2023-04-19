@@ -6,15 +6,21 @@
 int matriz[3][3] = {{1, 2, 3},
                     {4, 5, 6},
                     {7, 8, 9}};
-int vetor[3] = {2, 3, 4};
-int resultado[3] = {0, 0, 0};
+int vetor[3][3] = {{1, 2, 3},
+                    {4, 5, 6},
+                    {7, 8, 9}};
+int resultado[3][3] = {{0, 0, 0},
+                       {0, 0, 0},
+                       {0, 0, 0}};
 
 // função que separa uma linha para cada thread multiplicar
 void *multiplicacao(void *thread_id) {
     int id = *((int*) thread_id); // extrai o ID da thread
-    int i;
+    int i, j;
     for (i = 0; i < 3; i++) {
-        resultado[id] += matriz[id][i] * vetor[i];
+        for (j = 0; j < 3; j++) {
+            resultado[id][i] += matriz[id][j] * vetor[j][i];
+        }
     }
     pthread_exit(NULL);
 }
@@ -39,13 +45,15 @@ int main() {
         pthread_join(threads[t], NULL);
     }
 
-    // imprime o resultadodf
-    printf("Resultado (threads): ");
-    int i;
+    // imprime o resultado
+    printf("Resultado (threads):\n");
+    int i, j;
     for (i = 0; i < 3; i++) {
-        printf("%d ", resultado[i]);
+        for (j = 0; j < 3; j++) {
+            printf("%d ", resultado[i][j]);
+        }
+        printf("\n");
     }
-    printf("\n");
 
     pthread_exit(NULL);
 }
