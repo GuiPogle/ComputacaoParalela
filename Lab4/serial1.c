@@ -18,7 +18,7 @@ int main() {
     }
 
     // imprime o resultado
-    printf("Resultado: ");
+    printf("Resultado (serial 1): ");
     for (i = 0; i < 3; i++) {
         printf("%d ", resultado[i]);
     }
