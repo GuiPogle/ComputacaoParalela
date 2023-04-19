@@ -11,4 +11,13 @@ _____________________________________________________________
 Lab 5a - OpenMP
 
 
+|￣￣￣￣￣￣￣￣￣￣￣|
+    escreva algo           
+        aqui
+|＿＿＿＿＿＿＿＿＿＿＿|
+     \ (•◡•) /
+      \     /
+        ---
+       |   |
+
 Os exercícios foram desenvolvidos na plataforma AWS.
