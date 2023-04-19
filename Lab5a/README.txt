@@ -9,14 +9,20 @@ Alunos:
 _____________________________________________________________
 
 |￣￣￣￣￣￣￣￣￣￣￣|
-   Lab 5a - OpenMP
+|  Lab 5a - OpenMP   |
+|    Problema dos    |
+|      Trapézios     |
 |＿＿＿＿＿＿＿＿＿＿＿|
-     \ (•◡•) /
-      \     /
-        ---
-       |   |
-
-
-
+      \ (•◡•) /
+       \     /
+         ---
+        |   |
 
 Os exercícios foram desenvolvidos na plataforma AWS.
+_____________________________________________________________
+
+A implementação serial está contida no arquivo "serial.c", da mesma forma que a implementação paralela está em "paralela.c".
+Os tempos de execução são, respectivamente, XXX segundos e YYY segundos.
+O speedup para a versão paralela é:
+
+As evidências de cada implementação podem ser encontradas nos arquivos .XXX e .YYY.
