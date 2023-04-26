@@ -1,0 +1,4 @@
+Ideias iniciais ao ler o problema:
+
+	Talvez uma forma de otimizar a paralelização seria achar uma forma eficaz de calcular a parte 
+	fatorial do problema.
