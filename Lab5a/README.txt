@@ -22,6 +22,8 @@ Os exercícios foram desenvolvidos na plataforma AWS.
 _____________________________________________________________
 
 A implementação serial está contida no arquivo "serial.c", da mesma forma que a implementação paralela está em "paralela.c".
-Os tempos de execução são, respectivamente, XXX segundos e YYY segundos.
+Os tempos de execução da implementação serial teve média 2.0016 segundos.
+
+Por não termos conseguido implementar a forma paralela, não foi possível calcular Speedup.
 
 A evidência da implementação do código serial é: serial.png.
