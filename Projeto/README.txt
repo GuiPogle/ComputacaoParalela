@@ -27,6 +27,7 @@ Evolução do Projeto
   Data:
   Mudanças mais relevantes: 
   Dificuldades: 
+  Links: https://www.mathsisfun.com/numbers/e-eulers-number.html
 
 []
 
