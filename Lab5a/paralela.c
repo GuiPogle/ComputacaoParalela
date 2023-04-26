@@ -13,8 +13,9 @@ int main(int argc, char *argv[]) {
 
   thread_count = strtol(argv[1], NULL, 10);
   printf("Enter a, b, and n\n");
-  scanf("%l %l %d", &a, &b, &n);
-#pragma omp parallel num_threads(thread_count)
+  scanf("%lf %lf %d", &a, &b, &n);
+
+#pragma omp parallel num_threads(thread_count) reduction(+:global_result)
   Trap(a, b, n, &global_result);
 
   printf("With n = %d trapezoids, our estimate\n", n);
@@ -29,7 +30,7 @@ void Trap(double a, double b, int n, double *global_result_p) {
   double local_a, local_b;
   int i, local_n;
   int my_rank = omp_get_thread_num();
-  int thread_count = omp_get_num_threads():
+  int thread_count = omp_get_num_threads();
 
   h = (b - a) / n;
   local_n = n / thread_count;
@@ -42,6 +43,5 @@ void Trap(double a, double b, int n, double *global_result_p) {
   }
   my_result = my_result * h;
 
-#pragma omp critical
   *global_result_p += my_result;
 }
