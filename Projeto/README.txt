@@ -24,10 +24,9 @@ _____________________________________________________________
 Evolução do Projeto 
 
 [Entrada 1]
-  Data:
-  Mudanças mais relevantes: 
-  Dificuldades: 
-  Links: https://www.mathsisfun.com/numbers/e-eulers-number.html
+      O projeto V1 a seguir foi realizado no AWS Console.
+      Para que o código executasse como esperado, foi utilizada a biblioteca "gmp.h", que tem como principal função aumentar o número de casas decimais do valor que         queremos retornar. É necessário instalá-la para que o código compile. 
+      Links: https://www.mathsisfun.com/numbers/e-eulers-number.html
 
 []
 
