@@ -6,8 +6,8 @@ int main(void)
     mpf_t e, temp, fat;
 
     mpf_init2(e, 10000);
-    mpf_init2(temp, 64);
-    mpf_init2(fat, 64);
+    mpf_init2(temp, 10000);
+    mpf_init2(fat, 10000);
 
     mpf_set_d(e, 1.0);
     mpf_set_ui(temp, 1);
