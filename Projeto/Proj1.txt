@@ -1,0 +1,5 @@
+O projeto v1 a seguir foi realizado no AWS Console.
+
+Para que o código executasse como esperado, foi utilizada a biblioteca "gmp.h", que tem como principal função aumentar o número de casas decimais do valor que queremos 
+retornar.
+
