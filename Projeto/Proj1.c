@@ -10,6 +10,10 @@ int main(void)
     mpf_init2(temp);
     mpf_init2(fat);
 
+    mpf_init2(e, 10000);
+    mpf_init2(temp, 10000);
+    mpf_init2(fat, 10000);
+
     mpf_set_d(e, 1.0);
     mpf_set_ui(temp, 1);
     mpf_set_ui(fat, 1);
