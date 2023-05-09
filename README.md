@@ -8,6 +8,3 @@ Alunos:
 - Guilherme Guimarães Chiarelli | TIA: 32036647
 - Laura C. Balbachan dos Santos | TIA: 32173008
 
-
-
-ver link: https://docs.github.com/pt/github-ae@latest/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github
