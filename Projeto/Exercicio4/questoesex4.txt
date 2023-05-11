@@ -1,13 +1,5 @@
 Considere o algoritmo desenvolvido para o projeto final e responda às seguintes perguntas:
 
-|￣￣￣￣￣￣￣￣￣￣￣|
-|  PROJETOOOOOOOOOO  |
-|＿＿＿＿＿＿＿＿＿＿＿|
-      \ (•◡•) /
-       \     /
-         ---
-        |   |
-
 Questões:
 1. Quais são as tarefas no caminho crítico para cada grafo de dependência? Para responder a pergunta, apresente um DAG do seu projeto.
 2. Qual é o limite inferior do tempo de execução paralela para cada decomposição?
@@ -16,12 +8,15 @@ Questões:
 5. Qual é o paralelismo médio?
 
 Respostas:
-1. Imagem "GrafoEx4Paralelaatt.jpg"
+1. Através do DAG que geramos, ambos caminhos possíveis têm a mesma dependência, tendo assim a mesma extensão. 
+   Por tanto, n = 100 -> mpf_init -> mpf_init_ui -> mpf_init_set -> factorial_list -> OpenMP Parallel -> gmp_printf é um caminho crítico. 
 
-2.
+2. O limite inferior de tempo de execução paralela para cada decomposição é de 7 unidades.
 
-3.
+3. O número necessário de processadores é de 4.
 
-4.
+4. O grau máximo de concorrência coresponde ao número total de tarefas dividido pelo número de tarefas do caminho crítico.
+   No caso, 16/7 = 2,28.
 
-5.
+5. O paralelismo médio pode ser calculado pela divisão da soma do número de tarefas paralelas de cada "linha" pela quantidade de "linhas".
+   No caso, 16/7 = 2,28.
