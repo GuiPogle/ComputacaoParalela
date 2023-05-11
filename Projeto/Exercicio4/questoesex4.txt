@@ -15,8 +15,8 @@ Questões:
 4. Qual é o grau máximo de concorrência?
 5. Qual é o paralelismo médio?
 
-Respostas (pegar caderno da Lau):
-1.
+Respostas:
+1. Imagem "GrafoEx4Paralelaatt.jpg"
 
 2.
 
