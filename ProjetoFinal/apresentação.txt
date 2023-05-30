@@ -1,0 +1,8 @@
+Olá, bom dia!
+Nós somos o grupo dos Pogles e os Linguinis e vamos apresentar nossa resolução do Projeto.
+
+Logo de início o problema que identificamos foi o do cálculo fatorial. Entendemos que encontrando uma boa forma de implementá-lo paralelamente, 
+o tempo que o programa precisaria para encontrar os resultados seria reduzido.
+Para isso aplicamos...
+
+Tópicos a serem abordados:
