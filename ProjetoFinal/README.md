@@ -1,2 +1,18 @@
-# Projeto Final
-### Computação Paralela 
+# _Projeto Final_
+
+Universidade Presbiteriana Mackenzie 
+FCI - Ciência da Computação
+Computação Paralela 
+
+Alunos:
+- Guilherme de Souza Valente | TIA: 32034008
+- Guilherme Guimarães Chiarelli | TIA: 32036647
+- Laura C. Balbachan dos Santos | TIA: 32173008
+
+
+# Código
+
+- O projeto foi desenvolvido na plataforma AWS.
+-  Foram utilizadas as bibliotecas <gmp.h> e <omp.h>, certifique-se que elas estejam funcionando devidamente. 
+
+
