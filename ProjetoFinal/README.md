@@ -10,7 +10,7 @@ Alunos:
 - Laura C. Balbachan dos Santos | TIA: 32173008
 
 
-### Código
+### _Código_
 O projeto foi desenvolvido na plataforma AWS. Também foram utilizadas as bibliotecas <gmp.h> e <omp.h>, certifique-se que elas estejam funcionando devidamente. 
 
 
